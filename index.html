@@ -345,8 +345,8 @@
         }
 
         .blog-posts {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            display: flex;
+            flex-direction: column;
             gap: 30px;
         }
 
@@ -357,7 +357,7 @@
             border: 1px solid #e0e0e0;
             border-top: 4px solid #13294B;
             position: relative;
-            overflow: hidden;
+            overflow: visible;
         }
 
         .blog-card::before {
@@ -732,7 +732,7 @@
                 <div class="blog-card">
                     <h3>Redefining Supply Chain with Artificial Intelligence</h3>
                     <p class="blog-date">Posted: November 12, 2025</p>
-                    <div style="text-align: justify; line-height: 1.8;">
+                    <div style="text-align: justify; line-height: 1.8; max-height: none !important; height: auto !important;">
                         <p style="margin-bottom: 15px;">Today, in the fast-moving, often unpredictable global economy, the management of a supply chain is less like following a map than akin to trying to navigate shifting tides. Demand patterns change overnight, disruptions ripple across continents, and every decision comes coupled with the pressure of timing, data, and precision. As I progressed through this course on technology and management, one theme consistently stood out to me: the next generation of managers must not only understand technology-they must lead through it.</p>
                         
                         <p style="margin-bottom: 15px;">Of all the emerging technologies we have discussed, artificial intelligence intrigued me the most. My previous impression was that AI existed in either computer science labs or futuristic automation systems. Through class discussion, guest speakers, and reading, I now understand how AI is really changing management, particularly in the area of supply chain analysis that originally attracted me to the field of industrial engineering.</p>
@@ -761,7 +761,9 @@
                         
                         <p style="margin-bottom: 15px;">As AI continues to improve, so does the definition of a manager. More than ever, leaders will need to be translators-people fluent in the technical language of data and the human language of strategy, culture, and purpose.</p>
                         
-                        <p style="margin-bottom: 15px;">Managers whom I admire most are not those who adopt new technologies but who adapt through them. They don't look at AI as a threat to traditional leadership but as a partner that amplifies human potential. And that's the perspective with which I will go ahead in my career. This course didn't just deepen my understanding of management; it reshaped my mindset. Now, AI is not the future of work but the future of how we will think about work: faster, smarter, and together. In this ever-changing world of global supply chains, where the only constant is uncertainty, true leadership will prove itself through the ability to transform information into insight-and insight into action. With AI as an ally, that future seems not just possible but promising.</p>
+                        <p style="margin-bottom: 15px;">Managers whom I admire most are not those who adopt new technologies but who adapt through them. They don't look at AI as a threat to traditional leadership but as a partner that amplifies human potential. And that's the perspective with which I will go ahead in my career.</p>
+                        
+                        <p style="margin-bottom: 15px;">This course didn't just deepen my understanding of management; it reshaped my mindset. Now, AI is not the future of work but the future of how we will think about work: faster, smarter, and together. In this ever-changing world of global supply chains, where the only constant is uncertainty, true leadership will prove itself through the ability to transform information into insight-and insight into action. With AI as an ally, that future seems not just possible but promising.</p>
                     </div>
                 </div>
             </div>
